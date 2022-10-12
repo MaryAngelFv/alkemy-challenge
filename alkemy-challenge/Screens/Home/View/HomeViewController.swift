@@ -53,11 +53,12 @@ extension HomeViewController: UICollectionViewDataSource {
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: PopularMovieCollectionViewCell.identifier, for: indexPath) as? PopularMovieCollectionViewCell
+        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: PopularMovieCollectionViewCell.identifier, for: indexPath) as? PopularMovieCollectionViewCell,
+              let model = viewModel.getModel(at: indexPath)
         else {
             return UICollectionViewCell()
         }
-        cell.model = viewModel.getModel(at: indexPath)
+        cell.model = model
         return cell
     }
 }
@@ -65,8 +66,10 @@ extension HomeViewController: UICollectionViewDataSource {
 // MARK: - UICollectionViewDelegate -
 extension HomeViewController: UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        guard let navigationController = navigationController else { return }
-        let movieSelected = viewModel.getModel(at: indexPath)
+        guard let navigationController = navigationController,
+              let movieSelected = viewModel.getModel(at: indexPath)
+        else { return }
+        
         let detailMovieViewController = DetailMovieViewController()
         detailMovieViewController.idMovie = movieSelected.id
         navigationController.pushViewController(detailMovieViewController, animated: false)

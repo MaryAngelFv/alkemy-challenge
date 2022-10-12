@@ -1,0 +1,63 @@
+{
+   "adult":false,
+   "backdrop_path":"releaseDate",
+   "belongs_to_collection":{
+      "id":751156,
+      "name":"Hocus Pocus Collection",
+      "poster_path":"/1w8K4Dt3WOyCPpe94HY0rA9UXUj.jpg",
+      "backdrop_path":"/ep3u73OsN6PSxed9TFJnWqjwrdO.jpg"
+   },
+   "budget":0,
+   "genres":[
+      {
+         "id":14,
+         "name":"Fantasy"
+      },
+      {
+         "id":35,
+         "name":"Comedy"
+      },
+      {
+         "id":10751,
+         "name":"Family"
+      }
+   ],
+   "homepage":"https://www.disneyplus.com/movies/hocus-pocus-2/4Q5cWHlnVCun",
+   "id":642885,
+   "imdb_id":"tt11909878",
+   "original_language":"en",
+   "original_title":"Hocus Pocus 2",
+   "overview":"It’s been 29 years since someone lit the Black Flame Candle and resurrected the 17th-century sisters, and they are looking for revenge. Now it is up to three high-school students to stop the ravenous witches from wreaking a new kind of havoc on Salem before dawn on All Hallow’s Eve.",
+   "popularity":3876.533,
+   "poster_path":"/7ze7YNmUaX81ufctGqt0AgHxRtL.jpg",
+   "production_companies":[
+      {
+         "id":2,
+         "logo_path":"/wdrCwmRnLFJhEoH8GSfymY85KHT.png",
+         "name":"Walt Disney Pictures",
+         "origin_country":"US"
+      }
+   ],
+   "production_countries":[
+      {
+         "iso_3166_1":"US",
+         "name":"United States of America"
+      }
+   ],
+   "release_date":"2022-09-27",
+   "revenue":0,
+   "runtime":107,
+   "spoken_languages":[
+      {
+         "english_name":"English",
+         "iso_639_1":"en",
+         "name":"English"
+      }
+   ],
+   "status":"Released",
+   "tagline":"Back and more glorious than ever.",
+   "title":"Hocus Pocus 2",
+   "video":false,
+   "vote_average":7.774,
+   "vote_count":638
+}

@@ -37,7 +37,8 @@ class MoviesViewModel: NSObject {
         }
     }
     
-    func getModel(at indexPath: IndexPath) -> Movie {
+    func getModel(at indexPath: IndexPath) -> Movie? {
+        guard indexPath.row < movieList.count else { return nil }
         return movieList[indexPath.row]
     }
 }
