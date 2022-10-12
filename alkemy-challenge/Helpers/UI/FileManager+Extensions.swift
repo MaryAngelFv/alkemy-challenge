@@ -2,7 +2,7 @@
 //  FileManager+Extensions.swift
 //  alkemy-challenge
 //
-//  Created by Brayam Mora on 12/10/22.
+//  Created by Angelica Ferreira on 12/10/22.
 //
 
 import Foundation

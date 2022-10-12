@@ -14,10 +14,16 @@ enum HomeStrings {
 class MoviesViewModel: NSObject {
     private var moviesService: MoviesServiceProtocol
     var reloadCollectionView: (() -> Void)?
+    var didGetError: (() -> Void)?
     var title: String { return HomeStrings.title }
     var movieList = [Movie]() {
         didSet {
             reloadCollectionView?()
+        }
+    }
+    var messageError: String? {
+        didSet {
+            didGetError?()
         }
     }
     
@@ -32,7 +38,12 @@ class MoviesViewModel: NSObject {
             case .success(let movies):
                 self.movieList = movies
             case .failure(let error):
-                print(error)
+                self.movieList = []
+                if error == .noInternetConnection {
+                    self.messageError = ErrorStrings.noInternetMessage
+                } else {
+                    self.messageError = ErrorStrings.defaultMessage
+                }
             }
         }
     }

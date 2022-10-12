@@ -36,13 +36,19 @@ class HomeViewController: UIViewController {
     }
     
     func initViewModel() {
-        viewModel.getPopularMovies()
         viewModel.reloadCollectionView = { [weak self] in
             guard let self = self else { return }
             DispatchQueue.main.async {
                 self.moviesCollectionView.reloadData()
             }
         }
+        viewModel.didGetError = { [weak self] in
+            guard let self = self else { return }
+            DispatchQueue.main.async {
+                self.moviesCollectionView.setErrorMessage(self.viewModel.messageError)
+            }
+        }
+        viewModel.getPopularMovies()
     }
 }
 
