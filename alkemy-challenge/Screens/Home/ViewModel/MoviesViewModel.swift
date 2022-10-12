@@ -13,11 +13,11 @@ enum HomeStrings {
 
 class MoviesViewModel: NSObject {
     private var moviesService: MoviesServiceProtocol
-    var reloadTableView: (() -> Void)?
+    var reloadCollectionView: (() -> Void)?
     var title: String { return HomeStrings.title }
     var movieList = [Movie]() {
         didSet {
-            reloadTableView?()
+            reloadCollectionView?()
         }
     }
     

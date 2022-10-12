@@ -29,7 +29,6 @@ class HomeViewController: UIViewController {
         moviesCollectionView.backgroundColor = .black
         moviesCollectionView.dataSource = self
         moviesCollectionView.delegate = self
-        moviesCollectionView.allowsSelection = false
         moviesCollectionView.register(
             PopularMovieCollectionViewCell.nib,
             forCellWithReuseIdentifier: PopularMovieCollectionViewCell.identifier
@@ -38,7 +37,7 @@ class HomeViewController: UIViewController {
     
     func initViewModel() {
         viewModel.getPopularMovies()
-        viewModel.reloadTableView = { [weak self] in
+        viewModel.reloadCollectionView = { [weak self] in
             guard let self = self else { return }
             DispatchQueue.main.async {
                 self.moviesCollectionView.reloadData()
@@ -66,6 +65,10 @@ extension HomeViewController: UICollectionViewDataSource {
 // MARK: - UICollectionViewDelegate -
 extension HomeViewController: UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        // route to detail view
+        guard let navigationController = navigationController else { return }
+        let movieSelected = viewModel.getModel(at: indexPath)
+        let detailMovieViewController = DetailMovieViewController()
+        detailMovieViewController.idMovie = movieSelected.id
+        navigationController.pushViewController(detailMovieViewController, animated: false)
     }
 }
