@@ -2,7 +2,7 @@
 //  UIImageView+Extensions.swift
 //  alkemy-challenge
 //
-//  Created by Brayam Mora on 11/10/22.
+//  Created by Angelica Ferreira on 11/10/22.
 //
 
 import UIKit

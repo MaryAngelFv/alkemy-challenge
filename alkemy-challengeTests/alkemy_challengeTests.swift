@@ -2,7 +2,7 @@
 //  alkemy_challengeTests.swift
 //  alkemy-challengeTests
 //
-//  Created by Brayam Mora on 10/10/22.
+//  Created by Angelica Ferreira on 10/10/22.
 //
 
 import XCTest
