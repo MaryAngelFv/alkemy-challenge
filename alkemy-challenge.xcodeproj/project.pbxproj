@@ -1,0 +1,901 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13D8E3CB5907F812DBE0E0D2 /* Pods_alkemy_challenge_alkemy_challengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E28C33CB9980EE2160E1DC0D /* Pods_alkemy_challenge_alkemy_challengeUITests.framework */; };
+		181A9E2E9484567861136456 /* Pods_alkemy_challenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 641CD81C6A82419D136349EE /* Pods_alkemy_challenge.framework */; };
+		489C33CD450FCBB5A9946D06 /* Pods_alkemy_challengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A1DE9B635AAD6F55FC006D9 /* Pods_alkemy_challengeTests.framework */; };
+		554C684828F5D9B30087FBA7 /* MoviesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554C684728F5D9B30087FBA7 /* MoviesService.swift */; };
+		554C684C28F5DB990087FBA7 /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554C684B28F5DB990087FBA7 /* BaseService.swift */; };
+		554C684E28F5DC1D0087FBA7 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554C684D28F5DC1D0087FBA7 /* Endpoint.swift */; };
+		554C685428F5DD260087FBA7 /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554C685328F5DD260087FBA7 /* ServiceManager.swift */; };
+		554C685828F617930087FBA7 /* MoviesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554C685728F617930087FBA7 /* MoviesViewModel.swift */; };
+		554C685A28F61A340087FBA7 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554C685928F61A340087FBA7 /* UIImageView+Extensions.swift */; };
+		555BBAF828F4FCEC00F73A16 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555BBAF628F4FCEC00F73A16 /* HomeViewController.swift */; };
+		555BBAF928F4FCEC00F73A16 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 555BBAF728F4FCEC00F73A16 /* HomeViewController.xib */; };
+		555BBAFD28F4FD7800F73A16 /* PopularMovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555BBAFB28F4FD7800F73A16 /* PopularMovieCollectionViewCell.swift */; };
+		555BBAFE28F4FD7800F73A16 /* PopularMovieCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 555BBAFC28F4FD7800F73A16 /* PopularMovieCollectionViewCell.xib */; };
+		555BBB0028F504D500F73A16 /* CollectionViewHorizontalCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555BBAFF28F504D500F73A16 /* CollectionViewHorizontalCustom.swift */; };
+		555BBB0228F5D4DF00F73A16 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555BBB0128F5D4DF00F73A16 /* Movie.swift */; };
+		555BBB0428F5D5BB00F73A16 /* PopularMovies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555BBB0328F5D5BB00F73A16 /* PopularMovies.swift */; };
+		5563F69528F7145600143AA7 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5563F69428F7145600143AA7 /* UIViewController+Extensions.swift */; };
+		55B4FEBA28F4F8DC00468082 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B4FEB928F4F8DC00468082 /* AppDelegate.swift */; };
+		55B4FEBC28F4F8DC00468082 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B4FEBB28F4F8DC00468082 /* SceneDelegate.swift */; };
+		55B4FEC328F4F8DF00468082 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55B4FEC228F4F8DF00468082 /* Assets.xcassets */; };
+		55B4FEC628F4F8DF00468082 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55B4FEC428F4F8DF00468082 /* LaunchScreen.storyboard */; };
+		55B4FED128F4F8DF00468082 /* alkemy_challengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B4FED028F4F8DF00468082 /* alkemy_challengeTests.swift */; };
+		55B4FEDB28F4F8DF00468082 /* alkemy_challengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B4FEDA28F4F8DF00468082 /* alkemy_challengeUITests.swift */; };
+		55B4FEDD28F4F8DF00468082 /* alkemy_challengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B4FEDC28F4F8DF00468082 /* alkemy_challengeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55B4FECD28F4F8DF00468082 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55B4FEAE28F4F8DC00468082 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55B4FEB528F4F8DC00468082;
+			remoteInfo = "alkemy-challenge";
+		};
+		55B4FED728F4F8DF00468082 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55B4FEAE28F4F8DC00468082 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55B4FEB528F4F8DC00468082;
+			remoteInfo = "alkemy-challenge";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0744FEC792E51DBF19630515 /* Pods-alkemy-challenge-alkemy-challengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alkemy-challenge-alkemy-challengeUITests.debug.xcconfig"; path = "Target Support Files/Pods-alkemy-challenge-alkemy-challengeUITests/Pods-alkemy-challenge-alkemy-challengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		08CC8A63BE4F22F680A19093 /* Pods-alkemy-challenge-alkemy-challengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alkemy-challenge-alkemy-challengeUITests.release.xcconfig"; path = "Target Support Files/Pods-alkemy-challenge-alkemy-challengeUITests/Pods-alkemy-challenge-alkemy-challengeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3BFB96298B2D9B908BD9C9C9 /* Pods-alkemy-challengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alkemy-challengeTests.debug.xcconfig"; path = "Target Support Files/Pods-alkemy-challengeTests/Pods-alkemy-challengeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		554C684728F5D9B30087FBA7 /* MoviesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesService.swift; sourceTree = "<group>"; };
+		554C684B28F5DB990087FBA7 /* BaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
+		554C684D28F5DC1D0087FBA7 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		554C685328F5DD260087FBA7 /* ServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		554C685728F617930087FBA7 /* MoviesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewModel.swift; sourceTree = "<group>"; };
+		554C685928F61A340087FBA7 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
+		555BBAF628F4FCEC00F73A16 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		555BBAF728F4FCEC00F73A16 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		555BBAFB28F4FD7800F73A16 /* PopularMovieCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularMovieCollectionViewCell.swift; sourceTree = "<group>"; };
+		555BBAFC28F4FD7800F73A16 /* PopularMovieCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopularMovieCollectionViewCell.xib; sourceTree = "<group>"; };
+		555BBAFF28F504D500F73A16 /* CollectionViewHorizontalCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewHorizontalCustom.swift; sourceTree = "<group>"; };
+		555BBB0128F5D4DF00F73A16 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		555BBB0328F5D5BB00F73A16 /* PopularMovies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularMovies.swift; sourceTree = "<group>"; };
+		5563F69428F7145600143AA7 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		55B4FEB628F4F8DC00468082 /* alkemy-challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "alkemy-challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55B4FEB928F4F8DC00468082 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		55B4FEBB28F4F8DC00468082 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		55B4FEC228F4F8DF00468082 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55B4FEC528F4F8DF00468082 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55B4FEC728F4F8DF00468082 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55B4FECC28F4F8DF00468082 /* alkemy-challengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "alkemy-challengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55B4FED028F4F8DF00468082 /* alkemy_challengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alkemy_challengeTests.swift; sourceTree = "<group>"; };
+		55B4FED628F4F8DF00468082 /* alkemy-challengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "alkemy-challengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55B4FEDA28F4F8DF00468082 /* alkemy_challengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alkemy_challengeUITests.swift; sourceTree = "<group>"; };
+		55B4FEDC28F4F8DF00468082 /* alkemy_challengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alkemy_challengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		584D120B9BBBBE0B24F8FA51 /* Pods-alkemy-challengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alkemy-challengeTests.release.xcconfig"; path = "Target Support Files/Pods-alkemy-challengeTests/Pods-alkemy-challengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		641CD81C6A82419D136349EE /* Pods_alkemy_challenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_alkemy_challenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DBA59E586CE427496D1CED5 /* Pods-alkemy-challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alkemy-challenge.debug.xcconfig"; path = "Target Support Files/Pods-alkemy-challenge/Pods-alkemy-challenge.debug.xcconfig"; sourceTree = "<group>"; };
+		7A1DE9B635AAD6F55FC006D9 /* Pods_alkemy_challengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_alkemy_challengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E28C33CB9980EE2160E1DC0D /* Pods_alkemy_challenge_alkemy_challengeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_alkemy_challenge_alkemy_challengeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE54E65E1014980DC036EDEC /* Pods-alkemy-challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alkemy-challenge.release.xcconfig"; path = "Target Support Files/Pods-alkemy-challenge/Pods-alkemy-challenge.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55B4FEB328F4F8DC00468082 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181A9E2E9484567861136456 /* Pods_alkemy_challenge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55B4FEC928F4F8DF00468082 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				489C33CD450FCBB5A9946D06 /* Pods_alkemy_challengeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55B4FED328F4F8DF00468082 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13D8E3CB5907F812DBE0E0D2 /* Pods_alkemy_challenge_alkemy_challengeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3729D72F153D6C88ACE53569 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6DBA59E586CE427496D1CED5 /* Pods-alkemy-challenge.debug.xcconfig */,
+				FE54E65E1014980DC036EDEC /* Pods-alkemy-challenge.release.xcconfig */,
+				0744FEC792E51DBF19630515 /* Pods-alkemy-challenge-alkemy-challengeUITests.debug.xcconfig */,
+				08CC8A63BE4F22F680A19093 /* Pods-alkemy-challenge-alkemy-challengeUITests.release.xcconfig */,
+				3BFB96298B2D9B908BD9C9C9 /* Pods-alkemy-challengeTests.debug.xcconfig */,
+				584D120B9BBBBE0B24F8FA51 /* Pods-alkemy-challengeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		554C684F28F5DC240087FBA7 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				554C684B28F5DB990087FBA7 /* BaseService.swift */,
+				554C684D28F5DC1D0087FBA7 /* Endpoint.swift */,
+				554C685328F5DD260087FBA7 /* ServiceManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		554C685028F5DC310087FBA7 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				555BBAFF28F504D500F73A16 /* CollectionViewHorizontalCustom.swift */,
+				554C685928F61A340087FBA7 /* UIImageView+Extensions.swift */,
+				5563F69428F7145600143AA7 /* UIViewController+Extensions.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		555BBAEF28F4FC1300F73A16 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				555BBAF228F4FC7200F73A16 /* Home */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		555BBAF028F4FC1B00F73A16 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				554C684728F5D9B30087FBA7 /* MoviesService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		555BBAF128F4FC2000F73A16 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				554C685028F5DC310087FBA7 /* UI */,
+				554C684F28F5DC240087FBA7 /* Networking */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		555BBAF228F4FC7200F73A16 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				555BBAF528F4FCAD00F73A16 /* Model */,
+				555BBAF428F4FCA100F73A16 /* View */,
+				555BBAF328F4FC9B00F73A16 /* ViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		555BBAF328F4FC9B00F73A16 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				554C685728F617930087FBA7 /* MoviesViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		555BBAF428F4FCA100F73A16 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				555BBAFA28F4FD1B00F73A16 /* Sections */,
+				555BBAF628F4FCEC00F73A16 /* HomeViewController.swift */,
+				555BBAF728F4FCEC00F73A16 /* HomeViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		555BBAF528F4FCAD00F73A16 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				555BBB0128F5D4DF00F73A16 /* Movie.swift */,
+				555BBB0328F5D5BB00F73A16 /* PopularMovies.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		555BBAFA28F4FD1B00F73A16 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				555BBAFB28F4FD7800F73A16 /* PopularMovieCollectionViewCell.swift */,
+				555BBAFC28F4FD7800F73A16 /* PopularMovieCollectionViewCell.xib */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		55B4FEAD28F4F8DC00468082 = {
+			isa = PBXGroup;
+			children = (
+				55B4FEB828F4F8DC00468082 /* alkemy-challenge */,
+				55B4FECF28F4F8DF00468082 /* alkemy-challengeTests */,
+				55B4FED928F4F8DF00468082 /* alkemy-challengeUITests */,
+				55B4FEB728F4F8DC00468082 /* Products */,
+				3729D72F153D6C88ACE53569 /* Pods */,
+				A4089358F77E85AD30B4709B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		55B4FEB728F4F8DC00468082 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55B4FEB628F4F8DC00468082 /* alkemy-challenge.app */,
+				55B4FECC28F4F8DF00468082 /* alkemy-challengeTests.xctest */,
+				55B4FED628F4F8DF00468082 /* alkemy-challengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55B4FEB828F4F8DC00468082 /* alkemy-challenge */ = {
+			isa = PBXGroup;
+			children = (
+				555BBAF128F4FC2000F73A16 /* Helpers */,
+				555BBAF028F4FC1B00F73A16 /* Services */,
+				555BBAEF28F4FC1300F73A16 /* Screens */,
+				55B4FEB928F4F8DC00468082 /* AppDelegate.swift */,
+				55B4FEBB28F4F8DC00468082 /* SceneDelegate.swift */,
+				55B4FEC228F4F8DF00468082 /* Assets.xcassets */,
+				55B4FEC428F4F8DF00468082 /* LaunchScreen.storyboard */,
+				55B4FEC728F4F8DF00468082 /* Info.plist */,
+			);
+			path = "alkemy-challenge";
+			sourceTree = "<group>";
+		};
+		55B4FECF28F4F8DF00468082 /* alkemy-challengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				55B4FED028F4F8DF00468082 /* alkemy_challengeTests.swift */,
+			);
+			path = "alkemy-challengeTests";
+			sourceTree = "<group>";
+		};
+		55B4FED928F4F8DF00468082 /* alkemy-challengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				55B4FEDA28F4F8DF00468082 /* alkemy_challengeUITests.swift */,
+				55B4FEDC28F4F8DF00468082 /* alkemy_challengeUITestsLaunchTests.swift */,
+			);
+			path = "alkemy-challengeUITests";
+			sourceTree = "<group>";
+		};
+		A4089358F77E85AD30B4709B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				641CD81C6A82419D136349EE /* Pods_alkemy_challenge.framework */,
+				E28C33CB9980EE2160E1DC0D /* Pods_alkemy_challenge_alkemy_challengeUITests.framework */,
+				7A1DE9B635AAD6F55FC006D9 /* Pods_alkemy_challengeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55B4FEB528F4F8DC00468082 /* alkemy-challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55B4FEE028F4F8DF00468082 /* Build configuration list for PBXNativeTarget "alkemy-challenge" */;
+			buildPhases = (
+				ED2D0BD2DB814AEBFE20B5E9 /* [CP] Check Pods Manifest.lock */,
+				55B4FEB228F4F8DC00468082 /* Sources */,
+				55B4FEB328F4F8DC00468082 /* Frameworks */,
+				55B4FEB428F4F8DC00468082 /* Resources */,
+				1CDB6BAF205A48BBA9ECFBA5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "alkemy-challenge";
+			productName = "alkemy-challenge";
+			productReference = 55B4FEB628F4F8DC00468082 /* alkemy-challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55B4FECB28F4F8DF00468082 /* alkemy-challengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55B4FEE328F4F8DF00468082 /* Build configuration list for PBXNativeTarget "alkemy-challengeTests" */;
+			buildPhases = (
+				EE8A8E9EAF2B5333CC16A342 /* [CP] Check Pods Manifest.lock */,
+				55B4FEC828F4F8DF00468082 /* Sources */,
+				55B4FEC928F4F8DF00468082 /* Frameworks */,
+				55B4FECA28F4F8DF00468082 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55B4FECE28F4F8DF00468082 /* PBXTargetDependency */,
+			);
+			name = "alkemy-challengeTests";
+			productName = "alkemy-challengeTests";
+			productReference = 55B4FECC28F4F8DF00468082 /* alkemy-challengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		55B4FED528F4F8DF00468082 /* alkemy-challengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55B4FEE628F4F8DF00468082 /* Build configuration list for PBXNativeTarget "alkemy-challengeUITests" */;
+			buildPhases = (
+				830BB5DB580BEFB9206662A2 /* [CP] Check Pods Manifest.lock */,
+				55B4FED228F4F8DF00468082 /* Sources */,
+				55B4FED328F4F8DF00468082 /* Frameworks */,
+				55B4FED428F4F8DF00468082 /* Resources */,
+				A1D8931492B285ECB3C9FD89 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55B4FED828F4F8DF00468082 /* PBXTargetDependency */,
+			);
+			name = "alkemy-challengeUITests";
+			productName = "alkemy-challengeUITests";
+			productReference = 55B4FED628F4F8DF00468082 /* alkemy-challengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55B4FEAE28F4F8DC00468082 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					55B4FEB528F4F8DC00468082 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					55B4FECB28F4F8DF00468082 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 55B4FEB528F4F8DC00468082;
+					};
+					55B4FED528F4F8DF00468082 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 55B4FEB528F4F8DC00468082;
+					};
+				};
+			};
+			buildConfigurationList = 55B4FEB128F4F8DC00468082 /* Build configuration list for PBXProject "alkemy-challenge" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55B4FEAD28F4F8DC00468082;
+			productRefGroup = 55B4FEB728F4F8DC00468082 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55B4FEB528F4F8DC00468082 /* alkemy-challenge */,
+				55B4FECB28F4F8DF00468082 /* alkemy-challengeTests */,
+				55B4FED528F4F8DF00468082 /* alkemy-challengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55B4FEB428F4F8DC00468082 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55B4FEC628F4F8DF00468082 /* LaunchScreen.storyboard in Resources */,
+				555BBAFE28F4FD7800F73A16 /* PopularMovieCollectionViewCell.xib in Resources */,
+				55B4FEC328F4F8DF00468082 /* Assets.xcassets in Resources */,
+				555BBAF928F4FCEC00F73A16 /* HomeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55B4FECA28F4F8DF00468082 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55B4FED428F4F8DF00468082 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CDB6BAF205A48BBA9ECFBA5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-alkemy-challenge/Pods-alkemy-challenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-alkemy-challenge/Pods-alkemy-challenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-alkemy-challenge/Pods-alkemy-challenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		830BB5DB580BEFB9206662A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-alkemy-challenge-alkemy-challengeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1D8931492B285ECB3C9FD89 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-alkemy-challenge-alkemy-challengeUITests/Pods-alkemy-challenge-alkemy-challengeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-alkemy-challenge-alkemy-challengeUITests/Pods-alkemy-challenge-alkemy-challengeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-alkemy-challenge-alkemy-challengeUITests/Pods-alkemy-challenge-alkemy-challengeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED2D0BD2DB814AEBFE20B5E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-alkemy-challenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE8A8E9EAF2B5333CC16A342 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-alkemy-challengeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55B4FEB228F4F8DC00468082 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55B4FEBA28F4F8DC00468082 /* AppDelegate.swift in Sources */,
+				555BBAFD28F4FD7800F73A16 /* PopularMovieCollectionViewCell.swift in Sources */,
+				554C684828F5D9B30087FBA7 /* MoviesService.swift in Sources */,
+				554C685828F617930087FBA7 /* MoviesViewModel.swift in Sources */,
+				555BBB0228F5D4DF00F73A16 /* Movie.swift in Sources */,
+				554C685428F5DD260087FBA7 /* ServiceManager.swift in Sources */,
+				55B4FEBC28F4F8DC00468082 /* SceneDelegate.swift in Sources */,
+				555BBB0028F504D500F73A16 /* CollectionViewHorizontalCustom.swift in Sources */,
+				555BBB0428F5D5BB00F73A16 /* PopularMovies.swift in Sources */,
+				554C684C28F5DB990087FBA7 /* BaseService.swift in Sources */,
+				5563F69528F7145600143AA7 /* UIViewController+Extensions.swift in Sources */,
+				554C684E28F5DC1D0087FBA7 /* Endpoint.swift in Sources */,
+				554C685A28F61A340087FBA7 /* UIImageView+Extensions.swift in Sources */,
+				555BBAF828F4FCEC00F73A16 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55B4FEC828F4F8DF00468082 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55B4FED128F4F8DF00468082 /* alkemy_challengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55B4FED228F4F8DF00468082 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55B4FEDB28F4F8DF00468082 /* alkemy_challengeUITests.swift in Sources */,
+				55B4FEDD28F4F8DF00468082 /* alkemy_challengeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55B4FECE28F4F8DF00468082 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55B4FEB528F4F8DC00468082 /* alkemy-challenge */;
+			targetProxy = 55B4FECD28F4F8DF00468082 /* PBXContainerItemProxy */;
+		};
+		55B4FED828F4F8DF00468082 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55B4FEB528F4F8DC00468082 /* alkemy-challenge */;
+			targetProxy = 55B4FED728F4F8DF00468082 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55B4FEC428F4F8DF00468082 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55B4FEC528F4F8DF00468082 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55B4FEDE28F4F8DF00468082 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55B4FEDF28F4F8DF00468082 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55B4FEE128F4F8DF00468082 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DBA59E586CE427496D1CED5 /* Pods-alkemy-challenge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C7WS7FG6DD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "alkemy-challenge/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maryangel.alkemy-challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55B4FEE228F4F8DF00468082 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE54E65E1014980DC036EDEC /* Pods-alkemy-challenge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C7WS7FG6DD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "alkemy-challenge/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maryangel.alkemy-challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		55B4FEE428F4F8DF00468082 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BFB96298B2D9B908BD9C9C9 /* Pods-alkemy-challengeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C7WS7FG6DD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maryangel.alkemy-challengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/alkemy-challenge.app/alkemy-challenge";
+			};
+			name = Debug;
+		};
+		55B4FEE528F4F8DF00468082 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 584D120B9BBBBE0B24F8FA51 /* Pods-alkemy-challengeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C7WS7FG6DD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maryangel.alkemy-challengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/alkemy-challenge.app/alkemy-challenge";
+			};
+			name = Release;
+		};
+		55B4FEE728F4F8DF00468082 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0744FEC792E51DBF19630515 /* Pods-alkemy-challenge-alkemy-challengeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C7WS7FG6DD;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maryangel.alkemy-challengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "alkemy-challenge";
+			};
+			name = Debug;
+		};
+		55B4FEE828F4F8DF00468082 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08CC8A63BE4F22F680A19093 /* Pods-alkemy-challenge-alkemy-challengeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C7WS7FG6DD;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maryangel.alkemy-challengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "alkemy-challenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55B4FEB128F4F8DC00468082 /* Build configuration list for PBXProject "alkemy-challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55B4FEDE28F4F8DF00468082 /* Debug */,
+				55B4FEDF28F4F8DF00468082 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55B4FEE028F4F8DF00468082 /* Build configuration list for PBXNativeTarget "alkemy-challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55B4FEE128F4F8DF00468082 /* Debug */,
+				55B4FEE228F4F8DF00468082 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55B4FEE328F4F8DF00468082 /* Build configuration list for PBXNativeTarget "alkemy-challengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55B4FEE428F4F8DF00468082 /* Debug */,
+				55B4FEE528F4F8DF00468082 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55B4FEE628F4F8DF00468082 /* Build configuration list for PBXNativeTarget "alkemy-challengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55B4FEE728F4F8DF00468082 /* Debug */,
+				55B4FEE828F4F8DF00468082 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55B4FEAE28F4F8DC00468082 /* Project object */;
+}

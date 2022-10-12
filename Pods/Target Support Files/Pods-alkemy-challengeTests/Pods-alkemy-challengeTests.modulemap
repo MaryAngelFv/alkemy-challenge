@@ -1,0 +1,6 @@
+framework module Pods_alkemy_challengeTests {
+  umbrella header "Pods-alkemy-challengeTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
