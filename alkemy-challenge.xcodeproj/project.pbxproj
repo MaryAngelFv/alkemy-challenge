@@ -10,6 +10,12 @@
 		13D8E3CB5907F812DBE0E0D2 /* Pods_alkemy_challenge_alkemy_challengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E28C33CB9980EE2160E1DC0D /* Pods_alkemy_challenge_alkemy_challengeUITests.framework */; };
 		181A9E2E9484567861136456 /* Pods_alkemy_challenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 641CD81C6A82419D136349EE /* Pods_alkemy_challenge.framework */; };
 		489C33CD450FCBB5A9946D06 /* Pods_alkemy_challengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A1DE9B635AAD6F55FC006D9 /* Pods_alkemy_challengeTests.framework */; };
+		5543829C28F8F88E0017AE22 /* AppWorkingVideo.mov in Resources */ = {isa = PBXBuildFile; fileRef = 5543829B28F8F88E0017AE22 /* AppWorkingVideo.mov */; };
+		5543829E28F8F8990017AE22 /* ErrorCapture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5543829D28F8F8980017AE22 /* ErrorCapture.jpg */; };
+		554382A028F8F8A10017AE22 /* HelpersCapture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5543829F28F8F8A10017AE22 /* HelpersCapture.jpg */; };
+		554382A228F8F8A90017AE22 /* ScreenCapture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 554382A128F8F8A90017AE22 /* ScreenCapture.jpg */; };
+		554382A428F8F8B20017AE22 /* ServiceCapture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 554382A328F8F8B20017AE22 /* ServiceCapture.jpg */; };
+		554382A628F8F8B90017AE22 /* UnitTestCapture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 554382A528F8F8B90017AE22 /* UnitTestCapture.jpg */; };
 		554C684828F5D9B30087FBA7 /* MoviesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554C684728F5D9B30087FBA7 /* MoviesService.swift */; };
 		554C684C28F5DB990087FBA7 /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554C684B28F5DB990087FBA7 /* BaseService.swift */; };
 		554C684E28F5DC1D0087FBA7 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554C684D28F5DC1D0087FBA7 /* Endpoint.swift */; };
@@ -69,6 +75,12 @@
 		0744FEC792E51DBF19630515 /* Pods-alkemy-challenge-alkemy-challengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alkemy-challenge-alkemy-challengeUITests.debug.xcconfig"; path = "Target Support Files/Pods-alkemy-challenge-alkemy-challengeUITests/Pods-alkemy-challenge-alkemy-challengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		08CC8A63BE4F22F680A19093 /* Pods-alkemy-challenge-alkemy-challengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alkemy-challenge-alkemy-challengeUITests.release.xcconfig"; path = "Target Support Files/Pods-alkemy-challenge-alkemy-challengeUITests/Pods-alkemy-challenge-alkemy-challengeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3BFB96298B2D9B908BD9C9C9 /* Pods-alkemy-challengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alkemy-challengeTests.debug.xcconfig"; path = "Target Support Files/Pods-alkemy-challengeTests/Pods-alkemy-challengeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5543829B28F8F88E0017AE22 /* AppWorkingVideo.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = AppWorkingVideo.mov; sourceTree = "<group>"; };
+		5543829D28F8F8980017AE22 /* ErrorCapture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ErrorCapture.jpg; sourceTree = "<group>"; };
+		5543829F28F8F8A10017AE22 /* HelpersCapture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HelpersCapture.jpg; sourceTree = "<group>"; };
+		554382A128F8F8A90017AE22 /* ScreenCapture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ScreenCapture.jpg; sourceTree = "<group>"; };
+		554382A328F8F8B20017AE22 /* ServiceCapture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ServiceCapture.jpg; sourceTree = "<group>"; };
+		554382A528F8F8B90017AE22 /* UnitTestCapture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UnitTestCapture.jpg; sourceTree = "<group>"; };
 		554C684728F5D9B30087FBA7 /* MoviesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesService.swift; sourceTree = "<group>"; };
 		554C684B28F5DB990087FBA7 /* BaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
 		554C684D28F5DC1D0087FBA7 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
@@ -156,6 +168,19 @@
 				584D120B9BBBBE0B24F8FA51 /* Pods-alkemy-challengeTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		552804AC28F8ECEE001574A3 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				5543829F28F8F8A10017AE22 /* HelpersCapture.jpg */,
+				5543829D28F8F8980017AE22 /* ErrorCapture.jpg */,
+				554382A128F8F8A90017AE22 /* ScreenCapture.jpg */,
+				554382A328F8F8B20017AE22 /* ServiceCapture.jpg */,
+				554382A528F8F8B90017AE22 /* UnitTestCapture.jpg */,
+				5543829B28F8F88E0017AE22 /* AppWorkingVideo.mov */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 		554C684F28F5DC240087FBA7 /* Networking */ = {
@@ -338,6 +363,7 @@
 		55B4FEAD28F4F8DC00468082 = {
 			isa = PBXGroup;
 			children = (
+				552804AC28F8ECEE001574A3 /* Screenshots */,
 				55B4FEB828F4F8DC00468082 /* alkemy-challenge */,
 				55B4FECF28F4F8DF00468082 /* alkemy-challengeTests */,
 				55B4FED928F4F8DF00468082 /* alkemy-challengeUITests */,
@@ -509,9 +535,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				554382A028F8F8A10017AE22 /* HelpersCapture.jpg in Resources */,
 				55B4FEC628F4F8DF00468082 /* LaunchScreen.storyboard in Resources */,
+				554382A428F8F8B20017AE22 /* ServiceCapture.jpg in Resources */,
 				555BBAFE28F4FD7800F73A16 /* PopularMovieCollectionViewCell.xib in Resources */,
+				5543829C28F8F88E0017AE22 /* AppWorkingVideo.mov in Resources */,
+				554382A228F8F8A90017AE22 /* ScreenCapture.jpg in Resources */,
+				5543829E28F8F8990017AE22 /* ErrorCapture.jpg in Resources */,
 				55B4FEC328F4F8DF00468082 /* Assets.xcassets in Resources */,
+				554382A628F8F8B90017AE22 /* UnitTestCapture.jpg in Resources */,
 				555BBAF928F4FCEC00F73A16 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
