@@ -20,7 +20,7 @@ class HomeViewController: UIViewController {
         initViewModel()
     }
     
-    func initView() {
+    private func initView() {
         view.backgroundColor = .black
         title = viewModel.title
         let customLayout = CollectionViewHorizontalCustom()

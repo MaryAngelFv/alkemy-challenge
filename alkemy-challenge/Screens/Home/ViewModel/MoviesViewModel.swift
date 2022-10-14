@@ -8,7 +8,7 @@
 import Foundation
 
 enum HomeStrings {
-    static let title = "Movies"
+    static let title: String = "Movies"
 }
 
 class MoviesViewModel: NSObject {
