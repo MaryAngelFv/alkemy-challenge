@@ -28,7 +28,7 @@ The main idea of this folder is have a transversal module which help us with reu
 - **Networking:** This allows us to separate in a single context everything related to networking and web services. 
 - **UI:** Contains visual reusable components and extensions.
 
-![alt text](https://github.com/MaryAngelFv/alkemy-challenge/tree/main/Screenshots/HelpersCapture.png)
+![alt text](https://github.com/MaryAngelFv/alkemy-challenge/blob/main/Screenshots/HelpersCapture.jpg)
 
 ### Services
 In this folder we have the classes which responsability is communicate with the network and retry data.
