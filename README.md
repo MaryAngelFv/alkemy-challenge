@@ -2,7 +2,7 @@
 
 ## How the app works
 
-![alt text](https://github.com/MaryAngelFv/alkemy-challenge/tree/main/Screenshots/AppWorkingVideo.gif)
+![alt text](https://github.com/MaryAngelFv/alkemy-challenge/blob/main/Screenshots/AppWorkingVideo.gif)
 
 ## Instalation
 - This project require XCode 13.0, Swift 5.0 and should be run on device with iOS 15+
